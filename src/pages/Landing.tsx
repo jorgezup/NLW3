@@ -6,11 +6,11 @@ import { FiArrowRight } from "react-icons/fi";
 import '../styles/global.css'
 import '../styles/pages/landing.css'
 
-import logoImg from '../images/map-marker.svg'
+import logoImg from '../images/happy.svg'
 
 function Landing() {
-return (
-  <div id="page-landing">
+  return (
+    <div id="page-landing">
       <div className="content-wrapper">
         <img src={logoImg} alt="Happy"/>
 
@@ -29,7 +29,7 @@ return (
         </Link>
       </div>
     </div>
-)
+  )
 }
 
 export default Landing;
